@@ -1,22 +1,33 @@
 #header {
-    height: 4em;
+    background-color: #3051f6;
+    height: 2em;
     display: flex;
     padding: 0.5em 0 0.5em 0.5em;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
 }
 
 #header > img {
-    height: 4em;
+    height: 2em;
 }
 
 #vp-main {
     padding: 1em 0.75em 0 0.75em;
-    background-color: #151547;
+    background-color: #1d1d20;
     height: 100vh;
 }
 
 h1 {
     font-size: 2em;
-    color: #3051f6;
+    color: #ff10c3;
     margin: 0 0 1em 0;
+}
+
+#log {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2em;
+    color: white;
+    padding: 0 0.5em 0.5em 0.5em;
 }

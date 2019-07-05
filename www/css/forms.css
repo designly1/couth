@@ -18,7 +18,7 @@
 .form-stacked>div>label {
     display: flex;
     margin-bottom: 0.5em;
-    color: #00d3ef;
+    color: #ebef00;
 }
 
 .form-stacked>div>label>span:not(:last-of-type) {

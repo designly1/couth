@@ -1,9 +1,45 @@
-<h1>Please Log In</h1>
+<h1 class="animated bounce">Please Log In</h1>
 <div class="form-stacked">
     <div>
-        <input type="email" id="email" value="" placeholder="Email Address" />
+        <input type="email" id="login" value="" placeholder="Login ID or Email Address" />
     </div>
     <div>
         <input type="password" id="password" value="" placeholder="Password" />
     </div>
+    <div>
+        <input type="checkbox" id="member" value="yes" />
+        <label for="member">Remember Me</label>
+    </div>
+    <div class="button-stack">
+        <button id="login-btn" class="form-btn main">Log In</button>
+        <button id="signup-btn" class="form-btn">Sign Up</button>
+    </div>
 </div>
+<script>
+    $(document).ready(function () {
+        initMain();
+
+        var memberID = "";
+        memberID = localStorage.getItem('memberID');
+        if (memberID.length)
+        {
+            $("#login").val(localStorage.getItem('memberID'));
+            $("#member").prop("checked", true);
+        }
+
+        $("#login-btn").click(function(){
+            if ($("#member").is(":checked"))
+            {
+                localStorage.setItem('memberID', $("#login").val());
+            }else{
+                localStorage.setItem('memberID', '');
+            }
+            var sub = new Submit("/login");
+            sub.addData('login', $("#login").val());
+            sub.addData('password', $("#password").val());
+            sub.submit('json', function(data){
+                dump(data);
+            });
+        });
+    });
+</script>
