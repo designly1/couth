@@ -44,6 +44,8 @@
 		B280AB776BFE44C0B31E0BD5 /* CDVBarcodeScanner.mm in Resources */ = {isa = PBXBuildFile; fileRef = 8F70BDA09DA04EE6B353EC27 /* CDVBarcodeScanner.mm */; };
 		84E074E87B5E475DB42AC0FC /* scannerOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CE451565CAD4A2FAD8F4257 /* scannerOverlay.xib */; };
 		0FBF6941787846098A61ED2C /* CDVBarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6C36492F300454B8CF2DFEB /* CDVBarcodeScanner.bundle */; };
+		932A5AC62498443198BCA37E /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B484BBA51C5A41A88D52BFD2 /* CDVSplashScreen.m */; };
+		A5CF85CDC7D343928F936C14 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF35E04ABB24876ACF7F22C /* CDVViewController+SplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,10 @@
 		8F70BDA09DA04EE6B353EC27 /* CDVBarcodeScanner.mm */ = {isa = PBXFileReference; name = "CDVBarcodeScanner.mm"; path = "phonegap-plugin-barcodescanner/CDVBarcodeScanner.mm"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8CE451565CAD4A2FAD8F4257 /* scannerOverlay.xib */ = {isa = PBXFileReference; name = "scannerOverlay.xib"; path = "scannerOverlay.xib"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = file.xib; explicitFileType = undefined; includeInIndex = 0; };
 		B6C36492F300454B8CF2DFEB /* CDVBarcodeScanner.bundle */ = {isa = PBXFileReference; name = "CDVBarcodeScanner.bundle"; path = "CDVBarcodeScanner.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		B484BBA51C5A41A88D52BFD2 /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		1EF35E04ABB24876ACF7F22C /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		981E3E2E1E4942648DD7B0F3 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F99B7DD3334F485384AB86D5 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +290,10 @@
 				B7AA55221D1B44C09D124C83 /* CDVVibration.m */,
 				E87BAEEC9F3E4F7996DB4046 /* CDVVibration.h */,
 				8F70BDA09DA04EE6B353EC27 /* CDVBarcodeScanner.mm */,
+				B484BBA51C5A41A88D52BFD2 /* CDVSplashScreen.m */,
+				1EF35E04ABB24876ACF7F22C /* CDVViewController+SplashScreen.m */,
+				981E3E2E1E4942648DD7B0F3 /* CDVSplashScreen.h */,
+				F99B7DD3334F485384AB86D5 /* CDVViewController+SplashScreen.h */,
 			);
 			name = Plugins;
 			path = "Couth/Plugins";
@@ -417,6 +427,8 @@
 				A64C8C6834F24C6C8A81018F /* CDVReachability.m in Sources */,
 				D211E861F5374AA2B67B0F1F /* CDVVibration.m in Sources */,
 				B280AB776BFE44C0B31E0BD5 /* CDVBarcodeScanner.mm in Resources */,
+				932A5AC62498443198BCA37E /* CDVSplashScreen.m in Sources */,
+				A5CF85CDC7D343928F936C14 /* CDVViewController+SplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
