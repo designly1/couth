@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Couth",
+  "short_name": "Couth",
+  "version": "com.phonegap.helloworld",
+  "description": "VIP Admissions App.",
+  "author": "Couth App Support",
+  "icons": [],
+  "start_url": "index.html"
+}
